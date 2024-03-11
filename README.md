@@ -21,6 +21,9 @@ And thanks of course to Q42 for their beatiful audio creation.
 * better stopping of the skill
 * resume the next time at certain point in the game
 
+## Intents
+Ja, Nee, Sla over (to skip the intro's), Stop
 
-
+## Keyboard version
+There's a [keyboard prototype of this skill](https://github.com/timonvanhasselt/skill_ronja_keyboard)
 
