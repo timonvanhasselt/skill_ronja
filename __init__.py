@@ -23,6 +23,11 @@ class RonjaSkill(OVOSSkill):
             correct_answers = round_data['correct_answers']
             question_audio_files = round_data['audio_files']['question_audio_files']
 
+            # Convert relative paths to absolute paths
+            question_audio_files = [self.root_dir + file_path for file_path in question_audio_files]
+            for file_path in question_audio_files:
+                LOG.info(f"Chosen audio file: {file_path}")
+
             combined = list(zip(questions, correct_answers, question_audio_files))
             random.shuffle(combined)
             questions, correct_answers, question_audio_files = zip(*combined)
@@ -32,11 +37,11 @@ class RonjaSkill(OVOSSkill):
                 questions,
                 correct_answers,
                 question_audio_files,
-                audio_files['correct_answer_audio'],
-                audio_files['false_answer_audio'],
-                audio_files['intro'],
-                audio_files['outro'],
-                audio_files['main_question'],
+                self.root_dir + audio_files['correct_answer_audio'],
+                self.root_dir + audio_files['false_answer_audio'],
+                self.root_dir + audio_files['intro'],
+                self.root_dir + audio_files['outro'],
+                self.root_dir + audio_files['main_question'],
                 audio_files['duration_intro'],
                 audio_files['duration_outro'],
                 audio_files['duration_main'],
