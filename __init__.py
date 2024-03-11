@@ -10,10 +10,12 @@ import random
 class RonjaSkill(OVOSSkill):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+
+    def initialize(self):
         self.current_round = 0
         self.stop_called = False
         self.skip_intro = False  # Initialize the variable
-
+        
     def generate_round_data(self, round_num):
         round_data = rounds_data.get(round_num)
         if round_data:
