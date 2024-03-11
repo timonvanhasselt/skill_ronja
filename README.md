@@ -1,12 +1,12 @@
 # OVOS skill "Ronja en de piraten"
-Unofficial voice skill for [OVOS]([url](http://openvoiceos.org)) of the game "Ronja en de Piraten" (Dutch for: "Ronja and the pirates").
+Unofficial voice skill for [OVOS](https://openvoiceos.org) of the game "Ronja en de Piraten" (Dutch for: "Ronja and the pirates").
 
 ## Original version
-The voice version of Ronja was originally made for Google Home by Q42, in collaboration with clients of Visio. 
+The voice version of Ronja was originally made for Google Home by [Q42](www.q42.nl), in collaboration with clients of [Visio](www.visio.org). 
 Unfortunately Google deciced in 2023 to stop with their conversational action platfom and so this game was nog playable anymore for clients... ;(
 In 2023 we therefore asked Q42 if they could  make a webversion of the voice games, to be played in any browser. These beautiful voice games are back to life again. 
 The games are free to play here and are fully keyboard accessible too (TAB, ENTER, ESC for skipping the intro's):
-[https://onbeperktspelen.visio.org]([url](https://onbeperktspelen.visio.org)) (Dutch only).
+[https://onbeperktspelen.visio.org](https://onbeperktspelen.visio.org) (Dutch only).
 There's no voice input option on the website.
 
 ## Voice skill prototype
