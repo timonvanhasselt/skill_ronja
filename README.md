@@ -28,4 +28,5 @@ Ja, Nee, Sla over (to skip the intro's), Stop
 There's a [keyboard prototype of this skill](https://github.com/timonvanhasselt/skill_ronja_keyboard)
 It uses `python-evdev` for the input events. It can also be used to play with big buttons (for instance for 'Ja' and 'Nee') 
 
-
+## Video demo (YouTube)
+[![Ronja en de piraten demo youtube](https://img.youtube.com/vi/-ol85-y1o88/0.jpg)](https://www.youtube.com/watch?v=-ol85-y1o88]/watch?v=-ol85-y1o88)
