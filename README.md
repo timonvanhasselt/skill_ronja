@@ -24,6 +24,8 @@ And thanks of course to Q42 for their beatiful audio creation.
 ## Intents
 Ja, Nee, Sla over (to skip the intro's), Stop
 
-## Keyboard version
+## Keyboard/ physical button version
 There's a [keyboard prototype of this skill](https://github.com/timonvanhasselt/skill_ronja_keyboard)
+It uses `python-evdev` for the input events. It can also be used to play with big buttons (for instance for 'Ja' and 'Nee') 
+
 
